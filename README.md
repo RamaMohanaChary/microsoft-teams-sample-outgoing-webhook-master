@@ -15,7 +15,7 @@ Webhooks are a great way for Teams to integrate with external apps. A webhook is
     - Description - A detailed string that will appear in the profile card and the team-level App dashboard.
     - Profile Picture (optional) an app icon for your webhook.
     - Select the Create button from lower right corner of the pop-up window and the outgoing webhook will be added to the current team's channels.
-    - The next dialog window will display an [Hash-based Message Authentication Code](https://security.stackexchange.com/questions/20129/how-and-when-do-i-use-hmac/20301)](https://security.stackexchange.com/questions/20129/how-and-when-do-i-use-hmac/20301) security token that will be used to authenticate calls between Teams and the            designated outside service.
+    - The next dialog window will display an [Hash-based Message Authentication Code](https://security.stackexchange.com/questions/20129/how-and-when-do-i-use-hmac/20301) security token that will be used to authenticate calls between Teams and the designated outside service.
     - If the URL is valid and the server and client authentication tokens are equal (i.e., an HMAC handshake), the outgoing webhook will be available to the team's users.
 
 ## Pre-requisites
